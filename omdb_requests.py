@@ -4,7 +4,7 @@ import logging
 import os
 
 # ----------------- CONFIGURAÇÃO -----------------
-OMDB_API_KEYS = ["58003cc5", "dabeb3cd", "9d6e27a9"]
+OMDB_API_KEYS = ["58003cc5", "dabeb3cd", "9d6e27a9", "505ba252", "1f81f7c5"]
 omdb_key_index = 0  # índice da chave OMDB atual
 
 # Caminhos dos arquivos
