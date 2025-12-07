@@ -4,6 +4,12 @@ import logging
 import os
 
 # ----------------- CONFIGURAÇÃO -----------------
+"""
+chaves de requisição da API OMDB e dono do(s) email(s)
+- ["58003cc5", "505ba252", "1f81f7c5"]:     Thiago
+- ["dabeb3cd"]:                             Natália
+- ["9d6e27a9"]:                             Gabriel
+"""
 OMDB_API_KEYS = ["58003cc5", "dabeb3cd", "9d6e27a9", "505ba252", "1f81f7c5"]
 omdb_key_index = 0  # índice da chave OMDB atual
 
@@ -12,7 +18,7 @@ EXTRACTION_FOLDER = "extraction"
 LOGS_FOLDER = "logs"
 
 CHECKPOINT_FILE = os.path.join(EXTRACTION_FOLDER, "checkpoint_omdb.json")
-TMDB_MOVIES_FOLDER = EXTRACTION_FOLDER  # Agora é a pasta onde todos os arquivos tmdb_movies_*.json estão localizados
+TMDB_MOVIES_FOLDER = EXTRACTION_FOLDER  # Pasta onde todos os arquivos tmdb_movies_*.json estão localizados
 LOG_FILE = os.path.join(LOGS_FOLDER, "omdb_requests.log")
 
 # Logging
@@ -93,7 +99,7 @@ def load_tmdb_movies(file_path):
 # Função para obter o próximo arquivo TMDB (se existir)
 def get_next_tmdb_file(last_file_index):
     all_files = [f for f in os.listdir(TMDB_MOVIES_FOLDER) if f.startswith("tmdb_movies_") and f.endswith(".json")]
-    if last_file_index <= len(all_files):  # Condição ajustada para permitir o acesso ao arquivo correto
+    if last_file_index <= len(all_files):
         file_name = str("tmdb_movies_" + str(last_file_index) + ".json")
         return os.path.join(TMDB_MOVIES_FOLDER, file_name) 
     return None
