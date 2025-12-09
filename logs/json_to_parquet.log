@@ -1,0 +1,43 @@
+2025-12-09 12:49:37 [INFO] Iniciando conversão JSON para Parquet...
+2025-12-09 12:49:37 [INFO] Lendo arquivo: extraction\tmdb_movies_1.json
+2025-12-09 12:49:37 [INFO] Lendo arquivo: extraction\tmdb_movies_2.json
+2025-12-09 12:49:37 [INFO] Lendo arquivo: extraction\tmdb_movies_3.json
+2025-12-09 12:49:37 [INFO] Lendo arquivo: extraction\tmdb_movies_4.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_5.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_6.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_7.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_8.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_9.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_10.json
+2025-12-09 12:49:38 [INFO] Lendo arquivo: extraction\tmdb_movies_11.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_12.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_13.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_14.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_15.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_16.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_17.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_18.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_19.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_20.json
+2025-12-09 12:49:39 [INFO] Lendo arquivo: extraction\tmdb_movies_21.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_22.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_23.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_24.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_25.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_26.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_27.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_28.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_29.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_30.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_31.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_32.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_33.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_34.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_35.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_36.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_37.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_38.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_39.json
+2025-12-09 12:49:40 [INFO] Lendo arquivo: extraction\tmdb_movies_40.json
+2025-12-09 12:49:41 [INFO] Salvando Parquet em: parquet\extraction_file.parquet
+2025-12-09 12:49:43 [INFO] Conversão finalizada com sucesso.
